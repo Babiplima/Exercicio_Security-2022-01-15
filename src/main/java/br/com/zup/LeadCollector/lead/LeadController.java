@@ -17,7 +17,7 @@ public class LeadController {
     @Autowired
     private LeadService leadService;
 
-    @PutMapping
+    @PostMapping
     public Lead cadastrarLead(@RequestBody @Valid Lead lead){
         return leadService.salvarLead(lead);
     }
