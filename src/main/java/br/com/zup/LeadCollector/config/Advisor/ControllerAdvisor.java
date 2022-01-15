@@ -1,4 +1,4 @@
-package br.com.zup.LeadCollector.config;
+package br.com.zup.LeadCollector.config.Advisor;
 
 
 import org.springframework.http.HttpStatus;
